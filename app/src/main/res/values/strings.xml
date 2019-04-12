@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Best Shopping</string>
+    <string name="title_activity_main2222">Main2222Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="category_Name">
+
+        <item>Dress</item>
+        <item>Nail Polish</item>
+        <item>Lipstick</item>
+        <item>Ladies Ornaments</item>
+        <item>Boys Collection</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_show_details">ShowDetailsActivity</string>
+
+
+    <string name="payment_text">Go to your mobile\nDial *247#\nSelect Payment\nEnter 01742242243\nEnter Amount\nEnter Order Id as reference\nEnter counter 1\nEnter pin\nYou will get your Trx Id</string>
+
+
+</resources>

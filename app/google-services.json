@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "441663012305",
+    "firebase_url": "https://bestshopping-3d93d.firebaseio.com",
+    "project_id": "bestshopping-3d93d",
+    "storage_bucket": "bestshopping-3d93d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441663012305:android:ae7546d7661c45ad",
+        "android_client_info": {
+          "package_name": "com.example.bestshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441663012305-rsn367m814bqfl6av1iqborebvj3r0rh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bestshopping",
+            "certificate_hash": "9f265ce9410a5e01ab280fd9357217426f108364"
+          }
+        },
+        {
+          "client_id": "441663012305-uhrcb6t7hv06140oqv4vp5d7d0ee37ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFnTffQXYa0JOqJhEo6NWahBzYZ-Ix89A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441663012305-uhrcb6t7hv06140oqv4vp5d7d0ee37ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

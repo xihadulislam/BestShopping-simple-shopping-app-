@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CartReqActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:contentPadding="5dp"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:text="@string/payment_text"
+                    android:textColor="#12576D"
+                    android:textSize="18sp" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/orderId"
+                    android:textColorHint="#673AB7"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Order ID"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/TrxId"
+                    android:textColorHint="#673AB7"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Trx ID"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:inputType="phone"
+                    android:id="@+id/PhoneId"
+                    android:textColorHint="#673AB7"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Phone Number"
+                    android:padding="10dp" />
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/AddressID"
+                    android:textColorHint="#673AB7"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Address"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/submitId"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_bg2"
+                android:text="Confirm Order"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
